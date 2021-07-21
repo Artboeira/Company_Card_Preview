@@ -1,3 +1,4 @@
+/*================= RESET =============== */
 *{
     margin: 0;
     padding: 0;
@@ -5,15 +6,27 @@
    
 }
 
+ul {
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  img {
+    width: 100%;
+    height: auto;
+  }
 
+  /* ============== HOME ====================== */
 #rectangle{
-    position: relative;
     width: 339px;
     height: 865px;
     background: #0B0821;
 }
 
-.foo {
+.box {
     position: absolute;
     width: 283px;
     height: 728px;
@@ -33,3 +46,38 @@ img {
 
   }
 
+h1{
+    position: absolute;
+    width: 201px;
+    height: 90px;
+    left: 69px;
+    top: 355px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;   
+    color: #FFFFFF; 
+}  
+
+ p#content {
+    position: absolute;
+    width: 201px;
+    height: 83px;
+    left: 69px;
+    top: 473px;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+
+    color: #A4A3B5;
+}
+
+strong{
+    color: #A45AD1;
+}
