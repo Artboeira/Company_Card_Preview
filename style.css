@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+
+#rectangle{
+    position: relative;
+    width: 339px;
+    height: 865px;
+    background: #0B0821;
+}
+
+.foo {
+    position: absolute;
+    width: 283px;
+    height: 728px;
+    left: 28px;
+    top: 81px;
+    background: #211F38;
+    border-radius: 13px;
+  }
+
+
+
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 13px 13px 0px 0px;
+    
+
+  }
+
